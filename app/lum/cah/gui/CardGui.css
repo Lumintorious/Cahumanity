@@ -1,0 +1,33 @@
+.card {
+  width: 150px;
+  height: 200px;
+  background: linear-gradient(200deg, white, lightgray);
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px grey;
+  padding: 15px;
+  font-family: "Comfortaa";
+  font-weight: 600;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(105%);
+}
+.card * {
+  padding: inherit;
+  cursor: pointer;
+}
+.card .text {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.card .expansion {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 80%;
+}
+
+/*# sourceMappingURL=CardGui.css.map */

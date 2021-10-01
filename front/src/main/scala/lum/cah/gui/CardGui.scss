@@ -1,0 +1,36 @@
+.card {
+	width: 150px;
+	height: 200px;
+	background: linear-gradient(200deg, white, lightgray);
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px grey;
+	padding: 15px;
+	font-family: 'Comfortaa';
+	font-weight: 600;
+	position: relative;
+	box-sizing: border-box;
+
+	cursor: pointer;
+
+	&:hover {
+		transform: scale(105%);
+	}
+
+	* {
+		padding: inherit;
+		cursor: pointer;
+	}
+
+	.text {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.expansion {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		font-size: 80%;
+	}
+}

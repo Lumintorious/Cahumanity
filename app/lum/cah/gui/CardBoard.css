@@ -1,0 +1,15 @@
+.card-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 800px;
+  background-color: darkgray;
+}
+
+/*# sourceMappingURL=CardBoard.css.map */
